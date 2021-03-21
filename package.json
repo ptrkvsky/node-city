@@ -1,0 +1,27 @@
+{
+  "name": "node-city",
+  "version": "1.0.0",
+  "description": "Fetch region, dpt, city and insert into sanity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kovsky",
+  "license": "ISC",
+  "dependencies": {
+    "@sanity/client": "^2.2.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "p-queue": "^6.6.2",
+    "slugify": "^1.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "prettier": "2.2.1"
+  }
+}
